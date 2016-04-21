@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD1066341CC8AEB50083F33D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1066331CC8AEB50083F33D /* AppDelegate.swift */; };
+		DD1066361CC8AEB50083F33D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1066351CC8AEB50083F33D /* ViewController.swift */; };
+		DD1066391CC8AEB50083F33D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1066371CC8AEB50083F33D /* Main.storyboard */; };
+		DD10663C1CC8AEB50083F33D /* Mist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD10663A1CC8AEB50083F33D /* Mist.xcdatamodeld */; };
+		DD10663E1CC8AEB50083F33D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD10663D1CC8AEB50083F33D /* Assets.xcassets */; };
+		DD1066411CC8AEB50083F33D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD10663F1CC8AEB50083F33D /* LaunchScreen.storyboard */; };
+		DD10664C1CC8AEB50083F33D /* MistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10664B1CC8AEB50083F33D /* MistTests.swift */; };
+		DD1066571CC8AEB50083F33D /* MistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1066561CC8AEB50083F33D /* MistUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD1066481CC8AEB50083F33D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD1066281CC8AEB50083F33D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD10662F1CC8AEB50083F33D;
+			remoteInfo = Mist;
+		};
+		DD1066531CC8AEB50083F33D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD1066281CC8AEB50083F33D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD10662F1CC8AEB50083F33D;
+			remoteInfo = Mist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD1066301CC8AEB50083F33D /* Mist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1066331CC8AEB50083F33D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD1066351CC8AEB50083F33D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD1066381CC8AEB50083F33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD10663B1CC8AEB50083F33D /* Mist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mist.xcdatamodel; sourceTree = "<group>"; };
+		DD10663D1CC8AEB50083F33D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD1066401CC8AEB50083F33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD1066421CC8AEB50083F33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1066471CC8AEB50083F33D /* MistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD10664B1CC8AEB50083F33D /* MistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistTests.swift; sourceTree = "<group>"; };
+		DD10664D1CC8AEB50083F33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1066521CC8AEB50083F33D /* MistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1066561CC8AEB50083F33D /* MistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistUITests.swift; sourceTree = "<group>"; };
+		DD1066581CC8AEB50083F33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD10662D1CC8AEB50083F33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1066441CC8AEB50083F33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD10664F1CC8AEB50083F33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD1066271CC8AEB40083F33D = {
+			isa = PBXGroup;
+			children = (
+				DD1066321CC8AEB50083F33D /* Mist */,
+				DD10664A1CC8AEB50083F33D /* MistTests */,
+				DD1066551CC8AEB50083F33D /* MistUITests */,
+				DD1066311CC8AEB50083F33D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD1066311CC8AEB50083F33D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD1066301CC8AEB50083F33D /* Mist.app */,
+				DD1066471CC8AEB50083F33D /* MistTests.xctest */,
+				DD1066521CC8AEB50083F33D /* MistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD1066321CC8AEB50083F33D /* Mist */ = {
+			isa = PBXGroup;
+			children = (
+				DD1066331CC8AEB50083F33D /* AppDelegate.swift */,
+				DD1066351CC8AEB50083F33D /* ViewController.swift */,
+				DD1066371CC8AEB50083F33D /* Main.storyboard */,
+				DD10663D1CC8AEB50083F33D /* Assets.xcassets */,
+				DD10663F1CC8AEB50083F33D /* LaunchScreen.storyboard */,
+				DD1066421CC8AEB50083F33D /* Info.plist */,
+				DD10663A1CC8AEB50083F33D /* Mist.xcdatamodeld */,
+			);
+			path = Mist;
+			sourceTree = "<group>";
+		};
+		DD10664A1CC8AEB50083F33D /* MistTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD10664B1CC8AEB50083F33D /* MistTests.swift */,
+				DD10664D1CC8AEB50083F33D /* Info.plist */,
+			);
+			path = MistTests;
+			sourceTree = "<group>";
+		};
+		DD1066551CC8AEB50083F33D /* MistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD1066561CC8AEB50083F33D /* MistUITests.swift */,
+				DD1066581CC8AEB50083F33D /* Info.plist */,
+			);
+			path = MistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD10662F1CC8AEB50083F33D /* Mist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD10665B1CC8AEB50083F33D /* Build configuration list for PBXNativeTarget "Mist" */;
+			buildPhases = (
+				DD10662C1CC8AEB50083F33D /* Sources */,
+				DD10662D1CC8AEB50083F33D /* Frameworks */,
+				DD10662E1CC8AEB50083F33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mist;
+			productName = Mist;
+			productReference = DD1066301CC8AEB50083F33D /* Mist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD1066461CC8AEB50083F33D /* MistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD10665E1CC8AEB50083F33D /* Build configuration list for PBXNativeTarget "MistTests" */;
+			buildPhases = (
+				DD1066431CC8AEB50083F33D /* Sources */,
+				DD1066441CC8AEB50083F33D /* Frameworks */,
+				DD1066451CC8AEB50083F33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD1066491CC8AEB50083F33D /* PBXTargetDependency */,
+			);
+			name = MistTests;
+			productName = MistTests;
+			productReference = DD1066471CC8AEB50083F33D /* MistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD1066511CC8AEB50083F33D /* MistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1066611CC8AEB50083F33D /* Build configuration list for PBXNativeTarget "MistUITests" */;
+			buildPhases = (
+				DD10664E1CC8AEB50083F33D /* Sources */,
+				DD10664F1CC8AEB50083F33D /* Frameworks */,
+				DD1066501CC8AEB50083F33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD1066541CC8AEB50083F33D /* PBXTargetDependency */,
+			);
+			name = MistUITests;
+			productName = MistUITests;
+			productReference = DD1066521CC8AEB50083F33D /* MistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD1066281CC8AEB50083F33D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mitul Manish";
+				TargetAttributes = {
+					DD10662F1CC8AEB50083F33D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RNF8E69GKB;
+					};
+					DD1066461CC8AEB50083F33D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RNF8E69GKB;
+						TestTargetID = DD10662F1CC8AEB50083F33D;
+					};
+					DD1066511CC8AEB50083F33D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RNF8E69GKB;
+						TestTargetID = DD10662F1CC8AEB50083F33D;
+					};
+				};
+			};
+			buildConfigurationList = DD10662B1CC8AEB50083F33D /* Build configuration list for PBXProject "Mist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD1066271CC8AEB40083F33D;
+			productRefGroup = DD1066311CC8AEB50083F33D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD10662F1CC8AEB50083F33D /* Mist */,
+				DD1066461CC8AEB50083F33D /* MistTests */,
+				DD1066511CC8AEB50083F33D /* MistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD10662E1CC8AEB50083F33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1066411CC8AEB50083F33D /* LaunchScreen.storyboard in Resources */,
+				DD10663E1CC8AEB50083F33D /* Assets.xcassets in Resources */,
+				DD1066391CC8AEB50083F33D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1066451CC8AEB50083F33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1066501CC8AEB50083F33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD10662C1CC8AEB50083F33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1066361CC8AEB50083F33D /* ViewController.swift in Sources */,
+				DD1066341CC8AEB50083F33D /* AppDelegate.swift in Sources */,
+				DD10663C1CC8AEB50083F33D /* Mist.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1066431CC8AEB50083F33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD10664C1CC8AEB50083F33D /* MistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD10664E1CC8AEB50083F33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1066571CC8AEB50083F33D /* MistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD1066491CC8AEB50083F33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD10662F1CC8AEB50083F33D /* Mist */;
+			targetProxy = DD1066481CC8AEB50083F33D /* PBXContainerItemProxy */;
+		};
+		DD1066541CC8AEB50083F33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD10662F1CC8AEB50083F33D /* Mist */;
+			targetProxy = DD1066531CC8AEB50083F33D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD1066371CC8AEB50083F33D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD1066381CC8AEB50083F33D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD10663F1CC8AEB50083F33D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD1066401CC8AEB50083F33D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD1066591CC8AEB50083F33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD10665A1CC8AEB50083F33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD10665C1CC8AEB50083F33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.Mist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD10665D1CC8AEB50083F33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.Mist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD10665F1CC8AEB50083F33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.MistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mist.app/Mist";
+			};
+			name = Debug;
+		};
+		DD1066601CC8AEB50083F33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.MistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mist.app/Mist";
+			};
+			name = Release;
+		};
+		DD1066621CC8AEB50083F33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.MistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mist;
+			};
+			name = Debug;
+		};
+		DD1066631CC8AEB50083F33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.MistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD10662B1CC8AEB50083F33D /* Build configuration list for PBXProject "Mist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1066591CC8AEB50083F33D /* Debug */,
+				DD10665A1CC8AEB50083F33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD10665B1CC8AEB50083F33D /* Build configuration list for PBXNativeTarget "Mist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD10665C1CC8AEB50083F33D /* Debug */,
+				DD10665D1CC8AEB50083F33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD10665E1CC8AEB50083F33D /* Build configuration list for PBXNativeTarget "MistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD10665F1CC8AEB50083F33D /* Debug */,
+				DD1066601CC8AEB50083F33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD1066611CC8AEB50083F33D /* Build configuration list for PBXNativeTarget "MistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1066621CC8AEB50083F33D /* Debug */,
+				DD1066631CC8AEB50083F33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD10663A1CC8AEB50083F33D /* Mist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD10663B1CC8AEB50083F33D /* Mist.xcdatamodel */,
+			);
+			currentVersion = DD10663B1CC8AEB50083F33D /* Mist.xcdatamodel */;
+			path = Mist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD1066281CC8AEB50083F33D /* Project object */;
+}
